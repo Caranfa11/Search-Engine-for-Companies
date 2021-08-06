@@ -10,7 +10,7 @@ Created using HTML, CSS, JS and Django.
 1. Create and Init Virtual Enviroment 
 
 ```bash
-$ python3 -m venv env
+$ python -m venv env
 $ source env/Scripts/activate
 
 # You can exit the env with
@@ -28,6 +28,9 @@ $ pip install -r requirements.txt
 ```bash
 $ python manage.py runserver
 ```
+
+### will run in localhost:8000
+
 ## Routes
 - admin/
 - api/enterprise
