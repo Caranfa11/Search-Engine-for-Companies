@@ -21,14 +21,14 @@ body{
     background: rgb(51, 221, 170);
     border-radius: 5px;
     border: 2px solid rgb(6, 73, 60);
-    transition: 0.3s ease-out
+    transition: 0.2s ease-out
 }
 
 .options:hover{
     cursor:pointer;
     background: rgb(5, 95, 68);
     color: #ffffff;
-    transition: 0.3s ease-out;
+    transition: 0.2s ease-out;
 }
 
 .list{
@@ -46,8 +46,7 @@ body{
     flex-direction:row;
 }
 
-.field>input[type=text],
-.field>button {
+.field>input[type=text]{
     display:block;
     font:1.2em 'Montserrat Alternates';
 }
@@ -58,11 +57,14 @@ body{
     border:0.2em solid rgb(26, 188, 156);
 }
 
-.field>button {
-    padding:0.6em 0.8em;
-    background-color:rgb(26, 188, 156);
+#search{
+    padding:0.5em 0.5em;
+    background-color: rgb(10, 112, 95);
     color:white;
     margin: auto 5px;
+    font-size: 22.5px;
+    text-decoration: none;
+    border:rgb(26, 188, 156) solid 3px;
 }
 
 #search:hover{
