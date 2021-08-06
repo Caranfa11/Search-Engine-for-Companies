@@ -17,13 +17,13 @@ $ source env/Scripts/activate
 $ deactivate
 ```
 
-1. Install Requirements in Enviroment
+2. Install Requirements in Enviroment
 
 ```bash
 $ pip install -r requirements.txt
 ```
 
-1. Run server with Python
+3. Run server with Python
 
 ```bash
 $ python manage.py runserver
