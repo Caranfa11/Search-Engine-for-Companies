@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/style_index.css">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
     <title>Motor de Busqueda</title>
 </head>
 <body>
@@ -15,25 +14,13 @@
             Busqueda de Empresas
         </h1>
     </header>
-    <nav>
-        <ol>
-            <button class="options">
-                <li class="list">
-                    Nombres
-                </li>
-            </button>
-            <button class="options">
-                <li class="list">
-                    Ubicación
-                </li>
-            </button>
-        </ol>
-    </nav>
     <section>
         <div class="field" id="searchform">
-            <input type="text" id="searchterm" placeholder="Que estas buscando el día de hoy?" />
-            <a id="search" href="./outcome.html">🔍</a>
+            <input type="text" id="searchterm" placeholder="Que empresa estas buscando el día de hoy?" />
         </div>
+
+        <div id='companyList'></div>
     </section>
+    <script src="../JS/get_enterprise.js"></script>
 </body>
 </html>
