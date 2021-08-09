@@ -7,7 +7,6 @@ const API_enterprise = "http://localhost:8000/api/enterprise/";
             //Get Entered Data
             let fits = data.filter(company => {
                 const regex = new RegExp(`${searchbox}`,'i');
-                console.log(company.name.match(regex));
                 return company.name.match(regex) || company.address.match(regex);
             });
 
